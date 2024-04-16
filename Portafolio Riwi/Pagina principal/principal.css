@@ -198,36 +198,22 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: solid pink;
 }
 
-.circulos{
+.servicio_cont{
     display: flex;
-    flex-wrap: wrap;
-    width: 100%; /* Ancho del contenedor */
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 1%;
 }
 
-.circulo_card{
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 50%; /* Esto divide el contenedor en 2 columnas */
-    border-radius: 10px;
-    box-sizing: border-box; /* Para incluir el padding y el borde en el ancho del elemento */
-    align-items: start;
-    max-width: 100%;
-    height: auto;
+.servicio_cont img:hover{
+    transform: scale(1.2);
 }
 
-.circulo_alt{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: end;
-}
+/* circulo */
 
-.circulo_card img{
-    max-width: 60%;
-    height: auto;
-}
+
 
 /* contacto */
 
@@ -242,6 +228,7 @@ main{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+
 }
 
 form{
